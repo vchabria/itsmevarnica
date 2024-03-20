@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VarnikaChabria</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/varnika-favicon.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/varnika-favicon.png" alt="Varnika Chabria" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Varnika Chabria">Varnika Chabria</h1>
+
+          <p class="title">Student</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:itsmevarnica@gmail.com" class="contact-link">itsmevarnica@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+17654148127" class="contact-link">+1 (765) 414-8127</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2002-05-29">May 29, 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>(current) West Lafayette, Indiana, USA</address>
+              <address>Kolkata, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>about</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="resume">resume</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a junior studying CS + AI at Purdue University. I am a problem solver and a quick learner and believe my discipline and knack of communication combined with hard work and dedication help me do my job well.
+          </p>
+
+          <p>
+            I like reading, exploring, and cooking! I'm currently looking for Summer Internships and also looking forward to working with more like minded people. 
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/varnika-favicon.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning</h4>
+                <p class="service-item-text">
+                  Implementing ML/DL models in projects including chatbots, fine tuning AI models, and algorithms  
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/varnika-favicon.png" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                Full Stack Dev using HTML, CSS, JS, Python, Flask, SQL, MySQL, Java
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/varnika-favicon.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Apps</h4>
+
+                <p class="service-item-text">
+                  Building games on IOS using swift and Creating mock ups using figma 
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/varnika-favicon.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">VR/Game Engines</h4>
+
+                <p class="service-item-text">
+                  Exploring Unity and Blender. Creating models, and looking for more projects.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+     <!---#resume-->
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+      
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Purdue University</h4>
+              <span>2021 — 2025</span>
+              <p class="timeline-text">
+                BSc Computer Science with concentration in ML & AI / Computer Graphics. Minors in Economics, English, and Electronic & Time-Based Art. Key coursework includes Computer Graphics, Database Design, Human-Computer Interaction, Artificial Intelligence, Machine Learning, and Deep Learning.
+              </p>
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Research - IDEAS LAB - Purdue University</h4>
+              <span>Nov 2023 — Present</span>
+              <p class="timeline-text">
+                Working at the IDEAS lab at Purdue University under Professor Aniket Bera.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Web Content Specialist - Purdue University</h4>
+              <span>Feb 2023 — July 2023</span>
+              <p class="timeline-text">
+                • Boosted customer engagement as measured by open and click rates by creating and delivering monthly newsletters using Delivra.<br>
+                • Improved website functionality and UX by decreasing the broken links and bugs using SiteImprove.<br>
+                • Boosted ANR web pages’ visual quality and load speed via image optimization using GIMP and Inkscape.<br>
+                • Accelerated directory access with reduced search times by updating 250 Extension member profiles on Wordpress.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software Engineer Intern - Wit/Bit</h4>
+              <span>Jun 2022 — Aug 2022</span>
+              <p class="timeline-text">
+                • Boosted user traffic with Markdoc-created CRM pages for Decorum.<br>
+                • Increased customer interaction with an interactive publishing framework for B2B app users.<br>
+                • Reduced software bugs through end-to-end testing using Cypress for Decorum.<br>
+                • Minimized website downtime via GitHub actions integration on every push.<br>
+                • Enhanced project completion rates with a weekly 20-hour focus on learning and implementing new software.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Student and Teaching Assistant - Princeton University</h4>
+              <span>Jul 2020 — Aug 2021</span>
+              <p class="timeline-text">
+                1. A 5-week program in discrete mathematics mentored by Dr. Rajiv Gandhi.<br>
+                2. Spent 20 hours weekly studying Logic and basics of Proof Writing, Combinatorics, Probability, and introduction to Graph Theory with 100+ students from all over the world.<br>
+                Level 1: Enhances proficiency in discrete mathematics by completing a rigorous 5-week program under Dr. Rajiv Gandhi, investing over 40 hours weekly in mastering key concepts with a diverse cohort of 100+ international students.<br>
+                Level 2: Deepened understanding of algorithms and computational complexity via bi-weekly studies focusing on NP-Completeness problems, dedicating 10 hours to problem-solving.<br>
+                Level 3: Bolstered skills in a summer program where I mentored 5 new CS students contributing to diversity and academic growth in STEM.
+              </p>
+              
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Social Media Intern - Shalini X Apne Aap</h4>
+              <span>Apr 2021 — Jun 2021</span>
+              <p class="timeline-text">
+                1. Amplified Apne Aap International's outreach by co-creating media posts with Shalini Dewan to promote their One Million Food Drive.<br>
+                2. Boosted social media engagement through the production of weekly still and dynamic graphics, rejuvenating their presence on Instagram, Twitter, Facebook, and LinkedIn.<br>
+                3. Enhanced fundraising efforts by assembling and contributing to a compelling pitch decks for their campaigns.
+              </p>
+            </li>
+          </ol>
+        </section>
+        
+        
+      
+        <section class="skill">
+          <h3 class="h3 skills-title">Technical Skills</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <h5 class="h5">Programming</h5>
+              <p class="skill-text">
+                Proficient in Java, Python, R, HTML/CSS, JavaScript, React, MATLAB, C++, C#, and SQL. Experienced with Git, MongoDB, Flask, and Django.
+              </p>
+            </li>
+            <li class="skills-item">
+              <h5 class="h5">Game Design</h5>
+              <p class="skill-text">
+                Skilled in Unreal Engine 5, Unity, and Blender. Familiar with AI integration in game development.
+              </p>
+            </li>
+            <li class="skills-item">
+              <h5 class="h5">Design & Modeling</h5>
+              <p class="skill-text">
+                Competent in design software including Figma, Adobe Photoshop, Illustrator, and InDesign.
+              </p>
+            </li>
+          </ul>
+        </section>
+
+        <div class="resume-download">
+          <a href="/Users/varnikachabria/vcard-personal-portfolio/assets/images/Varnika_Chabria_Resume.pdf" download="Varnika_Chabria_Resume.pdf" target="_blank" class="resume-link">Download My Resume</a>
+        </div>
+        
+        
+
+      </article>
+
+      
+      
+         
+      
+
+      <!---#PORTFOLIO-->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Webdev</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Games</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Art</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/varnika-favicon.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/varnika-favicon.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/varnika-favicon.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/varnika-favicon.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/varnika-favicon.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/varnika-favicon.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/varnika-favicon.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/varnika-favicon.png" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+    
+      
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
